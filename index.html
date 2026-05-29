@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fahma Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="content">
+
+    <header class="navbar">
+
+        <div class="logo-container">
+
+            <img src="download(1).gif" class="logo" alt="Logo">
+
+        </div>
+<div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
+<ul class="nav-links" id="nav-links">
+
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li><a href="projects.html">Projects</a></li>
+
+            <li><a href="aboutme.html">About me</a></li>
+
+            <li><a href="contact.me.html">Contact</a></li>
+ </ul>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                DESIGNING
+                <br>
+                EXPERIENCES
+                <br>
+                THAT FEEL HUMAN
+            </h1>
+
+            <p class="subtitle">
+                UX/UI DESIGNER • FRONTEND DEVELOPER • DIGITAL CREATIVE
+            </p>
+
+            <div class="line"></div>
+
+        </div>
+
+        <!-- HERO CENTER -->
+
+        <div class="hero-center">
+
+            <img src="Simsssss-gif.gif" 
+            class="background-video" 
+            alt="Portfolio character">
+
+            <div class="hero-buttons">
+
+                <a href="projects.html" class="primary-btn">
+                    Projects
+                </a>
+
+                <a href="aboutme.html" class="secondary-btn">
+                    About Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+<section class="project-preview">
+
+    <h2>Featured Projects</h2>
+
+    <div class="preview-grid">
+
+        <a href="projects.html" class="preview-card">
+
+            <img src="Duckiana.png" alt="Project 1">
+
+            <h3>Portfolio Website</h3>
+
+        </a>
+
+        <a href="projects.html" class="preview-card">
+
+            <img src="final-fury.png.png" alt="Project 2">
+
+            <h3>Brand Design</h3>
+
+        </a>
+
+    </div>
+
+    <a href="projects.html" class="view-all-btn">
+        View All Projects
+    </a>
+
+</section>
+    <footer class="footer">
+
+        <div class="footer-left">
+
+            <p>
+                © 2026 Fahma Hassan Jama
+            </p>
+
+        </div>
+
+        <div class="footer-right">
+
+            <a href="https://www.instagram.com/fhmj.xo/">
+                Instagram
+            </a>
+
+            <a href="https://www.linkedin.com/in/fahma-hassan-jama-78a1b221a/">
+                LinkedIn
+            </a>
+
+            <a href="contact.me.html">
+                Contact
+            </a>
+
+        </div>
+
+    </footer>
+
+</div>
+<script>
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+</script>
+</body>
+
+</html>
